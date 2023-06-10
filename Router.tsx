@@ -1,16 +1,16 @@
-// import React from 'react';
-// import './index.css';
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
-// import Main from './components/Main';
+import React from 'react';
+import './index.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Main from './src/components/Main';
 
-// function Router() : JSX.Element => {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<Main />}></Route>
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
+function Router() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />}></Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
-// export default Router;
+export default Router;
